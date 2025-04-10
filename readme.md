@@ -1,4 +1,4 @@
-# 🖥️ XRDP + Budgie Desktop in Docker (with Systemd Support)
+## 🖥️ XRDP + Budgie Desktop in Docker (with Systemd Support)
 
 This Docker image provides a fully functional **Budgie Desktop Environment** accessible via **Remote Desktop Protocol (RDP)**, all containerized with **Systemd** support. It's perfect for testing, remote desktop access, or developing GUI-based applications in a secure, isolated sandbox.
 
@@ -10,25 +10,21 @@ This Docker image provides a fully functional **Budgie Desktop Environment** acc
 - 🔒 **Systemd in Docker**: Enables support for session-managed applications
 - 📡 **XRDP Server**: Remote desktop access via port `3389`
 - 🐧 **Base Image**: Built on `ubuntu:latest`
-- 🧹 **Minimal Install**: Clean setup with `--no-install-recommends`
 
 ---
 
 ## 🧰 Included Packages
 
-| Package                     | Description                  |
-| --------------------------- | ---------------------------- |
-| `sudo`                      | Superuser privileges         |
-| `wget`, `curl`              | File downloading tools       |
-| `git`                       | Version control              |
-| `jq`                        | JSON processing              |
-| `zsh`                       | Z Shell                      |
-| `iputils-ping`              | Network diagnostics          |
-| `aria2`                     | Lightweight download utility |
-| `xorgxrdp`, `xrdp`          | XRDP server and dependencies |
-| `systemd`                   | System and service manager   |
-| `dbus`, `dbus-user-session` | System message bus           |
-| `budgie-desktop`            | Budgie desktop environment   |
+| Package            | Description                  |
+| ------------------ | ---------------------------- |
+| `wget`, `curl`     | File downloading tools       |
+| `git`              | Version control              |
+| `jq`               | JSON processing              |
+| `zsh`              | Z Shell                      |
+| `iputils-ping`     | Network diagnostics          |
+| `aria2`            | Lightweight download utility |
+| `xorgxrdp`, `xrdp` | XRDP server and dependencies |
+| `budgie-desktop`   | Budgie desktop environment   |
 
 ---
 
